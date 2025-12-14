@@ -1,7 +1,3 @@
-"""
-Aplikasi Analisis Pola Pembelian Produk Makanan Ringan
-Menggunakan Algoritma Apriori
-"""
 
 import streamlit as st
 import pandas as pd
@@ -10,7 +6,6 @@ import plotly.graph_objects as go
 from apriori_algorithm import AprioriAlgorithm
 import io
 
-# Page configuration
 st.set_page_config(
     page_title="Apriori Market Basket Analysis",
     page_icon="",
@@ -18,7 +13,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for modern design
 st.markdown("""
     <style>
     /* Font Awesome */
